@@ -73,7 +73,7 @@ exclude = [
 max-line-length = 127
 max-complexity = 10
 select = ["E", "F", "W", "C"]
-ignore = ["E203", "W503"]
+ignore = ["E203", "W503", "E402"]
 
 [build-system]
 requires = ["poetry-core"]
