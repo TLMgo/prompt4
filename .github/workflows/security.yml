@@ -77,7 +77,7 @@ jobs:
     - name: Run Bandit security linter
       run: |
         poetry run pip install bandit
-        poetry run bandit -r . -f json -o bandit-report.json || true
+        poetry run bandit -r . -f json -o bandit-report.json --exclude ./.venv,./venv,./build,./dist || true
     
     - name: Upload Bandit report
       uses: actions/upload-artifact@v4
