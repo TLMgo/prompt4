@@ -10,7 +10,10 @@ PROMPTS_FOLDER = os.environ.get(PROMPTS_FOLDER_ENV) or os.path.join(
 mcp = FastMCP(
     "Prompt Shortcut MCP",
     log_level="ERROR",
-    instructions="You are a software developer assistant. You are able to remember prompts templates and execute them when asked.",
+    instructions=(
+        "You are a software developer assistant. You are able to remember "
+        "prompts templates and execute them when asked."
+    ),
 )
 
 
