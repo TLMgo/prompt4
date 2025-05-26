@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "prompt-shortcut-mcp"
+version = "0.1.0"
+description = ""
+authors = ["Jean-Pierre Bluteau <jean-pierre.bluteau@tlmgo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = {extras = ["mcp"], version = "^5.29.0"}
+fastmcp = "^2.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
