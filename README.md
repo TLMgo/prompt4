@@ -66,6 +66,12 @@ do it.
 
 This will instruct Cursor to execute the retrieved instructions.
 
+> **Tip:** For an even faster workflow, add the following rule to your user instructions in Cursor:
+>
+> "When the chat message starts with '!', use prompt4 to get the prompt and execute it. Example: '!PROMPT_NAME'."
+>
+> With this rule, you only need to start your chat message with `!` followed by the name of the shortcut to instantly trigger the corresponding prompt.
+
 ## Installation
 
 1. Clone the repository:
